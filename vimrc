@@ -66,10 +66,10 @@ colorscheme solarized
 set cursorline
 
 " Use left, right, up, down arrow to modify windows size.
-nmap <LEFT> <C-W><
-nmap <RIGHT> <C-W>>
-nmap <UP> <C-W>+
-nmap <DOWN> <C-W>-
+nmap <C-LEFT> <C-W><
+nmap <C-RIGHT> <C-W>>
+nmap <C-UP> <C-W>+
+nmap <C-DOWN> <C-W>-
 
 " Remove unwanted spaces
 map <leader>c :%s/\s\+$//<CR>
@@ -170,6 +170,10 @@ set noswapfile
 " cd ~/.vim/bundle
 " git clone git://github.com/Lokaltog/vim-powerline.git
 set laststatus=2
+
+"================= rdd======================="
+set mouse=a
+set cursorcolumn
 
 
 " Settings for ctrlp
