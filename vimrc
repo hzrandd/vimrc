@@ -1,4 +1,5 @@
-" vimrc of gtt116
+"author: ruandongdong
+"email: ruandongdong2012@gmail.com
 
 syntax on
 let mapleader = ","
@@ -172,8 +173,8 @@ set noswapfile
 set laststatus=2
 
 "================= rdd======================="
-set mouse=a
-set cursorcolumn
+"set mouse=a
+"set cursorcolumn
 
 
 " Settings for ctrlp
